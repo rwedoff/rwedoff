@@ -3,6 +3,10 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+.page-background{
+	background: #000033;
+}
+
 
 li img{
 	display: block;
@@ -58,10 +62,32 @@ body {
     -o-background-size: cover;
 }
 
-.image-bg-fluid-height {
-	background: url('../assets/cover_photo.png') no-repeat center center ;
+#front-bg-img{
+	background: url('../images/cover_photo.png') no-repeat center center  ;
 	background-size: 100%;
-    padding: 275px 0;
+}
+
+#about-bg-img{
+	background: url('../images/locationphoto.png') no-repeat center center  ;
+	background-size: 100%;
+}
+
+.image-bg-fluid-height {
+	
+	
+	padding: 100px 0;
+    
+}
+@media screen and (min-width: 480px) {
+	.image-bg-fluid-height {
+		padding: 275px 0;
+	}
+ 
+}
+@media only screen and (min-width: 768px) {
+		.image-bg-fluid-height {
+		padding: 275px 0;
+	}
 }
 
 .nav-text{
