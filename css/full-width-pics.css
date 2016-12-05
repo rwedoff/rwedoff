@@ -1,10 +1,42 @@
-/*
- * Start Bootstrap - Full Width Pics (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+.small-icon{
+	width: 20px;
+	height: 20px;
+	display: inline;
+	vertical-align: top;
+}
+
+
+.image-width{
+	width: 100%;
+}
+
+.grid-padding{
+	padding: 10px;
+}
+
+.fixed{
+	position: fixed;
+}
+
+.sidebar-outer {
+    
+    position: relative;
+}
+
+.btn-primary{
+	background-color: #000233;
+}
+
 .page-background{
 	background: #000033;
+}
+
+a{
+	color: #000233;
+}
+
+ul > li {
+    margin-left: 10px;
 }
 
 
@@ -69,6 +101,11 @@ body {
 
 #about-bg-img{
 	background: url('../images/locationphoto.png') no-repeat center center  ;
+	background-size: 100%;
+}
+
+#work-bg-img{
+	background: url('../images/Work Cover.png') no-repeat center center;
 	background-size: 100%;
 }
 
