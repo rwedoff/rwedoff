@@ -5,9 +5,16 @@
 	vertical-align: top;
 }
 
+p, h1,h2,h3,h4,h5,h6{
+	font-family: Segoe WP, Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, "sans-serif"
+}
 
 .image-width{
 	width: 100%;
+}
+
+#linked-pic{
+	width: 75%;
 }
 
 .grid-padding{

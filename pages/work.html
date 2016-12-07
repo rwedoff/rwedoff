@@ -46,9 +46,6 @@
                     <li>
                         <a class="nav-text" href="music.html">Music</a>
                     </li>
-                    <li>
-                        <a class="nav-text" href="resume.html">Resume</a>
-                    </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -65,7 +62,35 @@
 					</div>	
 				</div>
 				<div class="row">
-					<div class="col-md-6">
+				<div class="col-md-4">					
+						<img src="../images/linkedInPic.jpg" class="grid-padding center-block" id="linked-pic">
+						<div class="grid-padding">
+							<a href="https://www.linkedin.com/in/ryan-wedoff-b8450980/"><button class="form-control btn-primary" >
+							<img src="../images/linkedin.svg" class="small-icon" > LinkedIn</button></a>
+						</div>
+						<div class="grid-padding">
+							<a href="https://github.com/rwedoff"><button class="form-control btn-primary">
+							<img src="../images/github.svg" class="small-icon" > GitHub</button></a>
+						</div>						
+						<div class="grid-padding">
+							<a href="mailto:rwedoff@outlook.com"><button class="form-control btn-primary">
+							<img src="../images/email.svg" class="small-icon" > Contact</button></a>
+						</div>	
+						<div class="grid-padding">
+							<form method="get" action="../images/Ryan Wedoff Resume 2.pdf">
+							<button class="form-control btn-danger"> Download Resume</button>
+							</form>
+						</div>						
+					
+				</div>				
+					<div class="col-md-4">
+					<div id="education-div">
+						<p class="lead section-lead text-color-white">Education</p>
+						<p class="text-color-white">The University of Iowa</p>
+						<p class="text-color-white">Master in Computer Science ● May 2018</p>
+						<p class="text-color-white">B.S. Computer Science ● May 2017</p>	
+					</div>  
+					<div id="work-div">
 						<p class="lead section-lead text-color-white">Work</p>
 						<ul class="text-color-white">
 							<li><em>Current:</em>
@@ -83,9 +108,24 @@
 							</li>
 							
 						</ul>
-						
+					</div>	
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-4">
+					<div id="cs-skills">
+						<p class="lead section-lead text-color-white">Computer Skills</p>
+						<ul class="text-color-white">
+							<li>C# &emsp;&emsp;&emsp;&emsp;● ● ● ● ●</li>
+							<li>JavaScript  &nbsp;	● ● ● ● ●</li>
+							<li>HTML/CSS 	&nbsp;● ● ● ●</li>
+							<li>Ruby&emsp;&emsp;&emsp;&nbsp;● ●</li>
+							<li>Android	&emsp;&nbsp; &nbsp;● ● ●</li>
+							<li>Java 	&emsp;&emsp;&nbsp; &nbsp;	● ● ●</li>
+							<li>C 		 &emsp; &emsp;&emsp;&emsp;&nbsp;● ●</li>
+							<li>Python &emsp;&nbsp; &nbsp;		●</li>
+							<li>SQL 	&nbsp;&emsp;&emsp;&emsp;●</li>
+						</ul>						
+					</div>
+					<div id="projects-div">
 						<p class="lead section-lead text-color-white">Projects</p>
 						<ul class="text-color-white">
 							<li><a href="https://github.com/rwedoff/KinectDisplayBoard">Kinect Display Board</a>
@@ -107,18 +147,45 @@
 							</li>
 							
 						</ul>
-						
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-   		<header class="image-bg-fluid-height" id="work-bg-img"></header> 
+   		
+	  <div class="container">
+   			<div class="row">
+			  <div class="col-lg-2">
+   					<img src="../images/nao_remote.jpg" class="pop image-width grid-padding">
+   				</div>
+   				<div class="col-lg-5">
+				  <img src="../images/ite.png" class="pop image-width grid-padding">
+   				</div>
+   				<div class="col-lg-5">
+				  <img src="../images/kinectboard.png" class="pop image-width grid-padding">
+   				</div>
+   			</div>
    		</div>
-<!-- InstanceEndEditable -->
+</div>
 
-    <!-- Fixed Height Image Aside -->
-    <!-- Image backgrounds are set within the full-width-pics.css file. -->
-    <!-- Content Section -->
+<!-- InstanceEndEditable -->
+    
+    
+  		  <!-- Modal -->
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+		  <div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+		  		<div class="modal-header">
+          			<button type="button" class="close" data-dismiss="modal">&times;</button>
+        		</div>			  
+			  <div class="modal-body">
+				<img src="" class="imagepreview" style="width: 100%;" >
+			  </div>
+			  
+			</div>
+		  </div>
+		</div>
+   
     <!-- Footer -->
     <footer>
         <div class="container">
@@ -148,6 +215,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/image-modal.js"></script>
 
 </body>
 
